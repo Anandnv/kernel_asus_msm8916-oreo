@@ -1690,6 +1690,7 @@ struct hdd_context_s
     v_TIME_t last_scan_reject_timestamp;
     v_U8_t scan_reject_cnt;
 
+    bool is_fatal_event_log_sup;
     uint32_t track_arp_ip;
 };
 
